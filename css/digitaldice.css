@@ -1,0 +1,241 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#f8f8f8;
+    }
+.background{
+    background-color: white;
+    }
+.create{
+    background-color:#ffe5ef;
+    border-radius:60px;
+    }
+.wallet{
+    background-color:#c24ed6;
+    border-radius:60px;
+    color:white;
+    }
+.navbar-toggler-icon{
+    width:50px;
+    }
+ul li a{
+    margin-left: 30px;
+    }
+.logo img{
+    height:40px;
+    width:40px;
+}
+/*carousel*/
+.carousel{
+    margin-top:20px;
+    }
+.carousel-cell {
+    margin-left:15px;
+    width:40%;
+    counter-increment: gallery-cell;
+    }
+.carousel-cell img{
+    width:100%;
+    height:400px;
+    }
+/* cell number */
+.carousel-cell:before {
+    display: block;
+    }
+/*search*/
+.search{
+    border-radius:50px;
+    width:500px;
+    height:50px;
+    text-align: center;
+    box-shadow: 1px 1px 1px lightgrey;
+
+    border: none;
+    }
+.search-box{
+    margin-top:-20px;
+    }
+/*.search i{*/
+/*    color:grey;*/
+/*    margin-right: 20px;*/
+/*    margin-top:15px;*/
+/*    }*/
+span{
+    color:grey;
+    }
+/*buyer section*/
+
+.buyer-seller {
+    margin-top:70px;
+    }
+.seller-dropdown{
+    background-color:white;
+    border-radius: 30px;
+    }
+.buyer-dropdown{
+    background-color:white;
+    border-radius: 30px;
+    }
+
+.seller a{
+    float: right;
+    }
+.buyer a{
+    float: right;
+    }
+.box{
+    background-color: white;
+    box-shadow: 2px 2px 2px lightgrey;
+    border-radius:10px;
+    height:60px;
+    margin-left:30px;
+    margin-bottom:20px;
+    text-align: center;
+    }
+.box i{
+    margin-top:10px;
+    font-size:35px;
+    margin-right:10px;
+    }
+.box h6{
+    margin-top: 10px;
+    }
+.box-border{
+    border: 1px solid #ea4c88;
+    }
+.mystery-box img{
+    height:100%;
+    width: 100%;
+    padding: 20px;
+    }
+.card{
+    border-radius:10px;
+    margin-top: 20px;
+    }
+.card img{
+    border-radius:10px 10px 0px 0px;
+    }
+.email{
+    color:#ea4c88;
+    }
+.footer{
+    margin-top: 50px;
+    background-color: white;
+    height:100%;
+    }
+.links ul li{
+    list-style: none;
+    line-height: 40px;
+    }
+.social ul i{
+    padding-left:30px;
+    font-size:30px;
+    text-align: center;
+    }
+.social ul i{
+    color: #c24ed6;
+    }
+      
+button{
+    background-color:#c24ed6;
+    border:none;
+    color:white;
+    border-radius: 50px;
+    height:40px;
+    width: 200px;
+    }
+/*TABS*/
+.nav-item a{
+    color:#ea4c88;
+    }
+.logo i{
+    padding: 10px;
+    float: right;
+    color:red;
+    }
+.user-logo i{
+    padding: 10px;
+    float: right;
+    font-size: 20px;
+    }
+.dots i{
+    margin-right:10px;
+    float: right;
+    color: grey;
+    }
+.circle{
+    height:75px;
+    width:75px;
+    border-radius:100%;
+    margin-top:-60px;
+    }
+.circle img{
+    height: 100%;
+    width: 100%;
+    border-radius:100%;
+    border: 3px solid white;
+    }
+.footer2{
+    background-color:white;
+    height:50px;
+    margin-top:2px;
+    }
+.filter{
+    float:right;
+    }
+.btn-outline-danger{
+    width:100px;
+    }
+.dropdown-menu i{
+    color:#ea4c88;
+    font-size:20px;
+    }
+
+.tab li{
+    border-bottom: 1px solid #e5e5e5;
+    }     
+.tab li a:hover{
+    border-bottom: 3px solid #ea4c88;
+    }
+
+/*css after 768 screen*/
+
+@media(max-width: 768px){
+    ul li a{
+        margin-left: 0px;
+    }
+    .carousel-cell img{
+        width:100%;
+        height:200px;
+    }
+    .mystery-box img{
+       padding-top: 50px;
+    }
+    .footer{
+        text-align: center;
+        margin-top:20px;
+        background-color: white;
+        height:100%;
+    }
+    .links ul li{
+        text-align: center;
+        list-style: none;
+        line-height:40px;
+    }
+    .social ul li{
+        list-style: none;
+        font-size:25px;
+        }
+    .social ul li i{
+        color: #c24ed6;
+    }
+    .search{
+        border-radius:50px;
+        width: 50%;
+        height:50px;
+        background-color:white;
+    }
+
+
+
+}
